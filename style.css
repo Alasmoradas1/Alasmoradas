@@ -330,3 +330,35 @@ body {
     flex-direction: column;
   }
 }
+
+
+
+
+.contact-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem auto;
+  max-width: 800px;
+}
+
+.contact-item a {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #512573;
+  transition: transform 0.3s ease;
+}
+
+.contact-item a:hover {
+  transform: scale(1.05);
+}
+
+.contact-item img {
+  width: 28px;
+  height: 28px;
+}
